@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { LayoutTemplate } from '../../components';
+
 export default function HomePage() {
-	return <div>Home Page</div>;
+	return <LayoutTemplate>Home Page</LayoutTemplate>;
 }
